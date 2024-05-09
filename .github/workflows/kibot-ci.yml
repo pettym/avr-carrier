@@ -17,7 +17,7 @@ jobs:
     uses: pettym/kicad-build-system/.github/workflows/kicad.yaml@build-system
     with:
       # TODO: can we get this from the 'uses' invocation?
-      ref: build-system
+      build-system-ref: build-system
 
     
  
