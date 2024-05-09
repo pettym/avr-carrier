@@ -16,4 +16,4 @@ on:
       
 jobs:
   test:
-    uses: pettym/kicad-build-system@build-system
+    uses: pettym/kicad-build-system/.github/workflows/kibot-ci.yml@build-system
