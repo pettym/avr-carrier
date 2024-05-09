@@ -1,4 +1,4 @@
-name: "KiBot"
+name: "foobar"
 
 on:
   push:
@@ -8,12 +8,10 @@ on:
       - '**/*.kibot.yaml'
     tags:
       - '*'
-
-    # Will this cause tags to not work also??
     branches-ignore:
       - 'master'
       - 'main'
       
 jobs:
   test:
-    uses: pettym/kicad-build-system/.github/workflows/kibot-ci.yml@build-system
+    uses: pettym/kicad-build-system/.github/workflows/kicad.yaml@build-system
