@@ -5,7 +5,7 @@ on:
     paths:
       - "**/*"
       - '**/*.kicad*'
-      - '**/*.kibot.yaml'
+      - '**/*.kibot.yaml' 
     tags:
       - '*'
     branches-ignore:
