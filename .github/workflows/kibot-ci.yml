@@ -15,3 +15,4 @@ on:
 jobs:
   test:
     uses: pettym/kicad-build-system/.github/workflows/kicad.yaml@build-system
+ 
