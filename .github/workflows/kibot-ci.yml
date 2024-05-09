@@ -17,4 +17,4 @@ on:
       
 jobs:
   test:
-    uses: pettym/kicad-build-system
+    uses: pettym/kicad-build-system@build-system
