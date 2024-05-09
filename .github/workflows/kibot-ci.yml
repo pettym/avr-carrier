@@ -5,13 +5,13 @@ on:
     paths:
       - "**/*"
       - '**/*.kicad*'
-      - '**/*.kibot.yaml' 
+      - '**/*.kibot.yaml'
     tags:
       - '*'
     branches-ignore:
       - 'master'
       - 'main'
-      
+
 jobs:
   test:
     uses: pettym/kicad-build-system/.github/workflows/kicad.yaml@build-system
