@@ -1,0 +1,3 @@
+[submodule "kicad-build-system"]
+	path = kicad-build-system
+	url = https://github.com/pettym/kicad-build-system
