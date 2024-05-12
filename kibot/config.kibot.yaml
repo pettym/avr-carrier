@@ -19,8 +19,6 @@ preflight:
      - name: version
        command: echo "${BOARD_VERSION:=${GITHUB_REF_NAME:=no_version}}"
 
-       # TODO: use atime from pcb file?
-       # If we run pipelines later on this will not be accurate!
      - name: date
        command: "git log -1 --format=%cd --date=format:%Y-%m-%d"
 
