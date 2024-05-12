@@ -83,6 +83,9 @@
   (gr_text "${test}" (at 115.9 113.2) (layer "F.SilkS") (tstamp b690b709-a829-4186-be78-17f062b03b32)
     (effects (font (size 1 1) (thickness 0.15)))
   )
+  (gr_text "${date}" (at 135 101.3) (layer "F.SilkS") (tstamp ef0156a6-b75b-4613-bf2e-f5bd1466d518)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
 
   (zone (net 0) (net_name "") (layer "F.Cu") (tstamp ba125928-2783-42e8-9ef0-22724599cf0c) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
