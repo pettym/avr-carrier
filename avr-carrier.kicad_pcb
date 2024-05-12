@@ -77,8 +77,11 @@
   (net 0 "")
 
   (gr_rect (start 93.4 69.8) (end 164.9 141.3) (layer "Edge.Cuts") (width 0.1) (fill none) (tstamp 985590de-6f42-42b5-9202-736856487161))
-  (gr_text "${date}\n\n${test}" (at 128.3 100.7) (layer "F.SilkS") (tstamp 1e4e3c88-6e2c-4360-a475-800a7f80deba)
+  (gr_text "${DATE}\n\n${TEST}" (at 128.3 100.7) (layer "F.SilkS") (tstamp 1e4e3c88-6e2c-4360-a475-800a7f80deba)
     (effects (font (size 2 2) (thickness 0.15)))
+  )
+  (gr_text "${TEST}" (at 122.4 124.4) (layer "F.SilkS") (tstamp b690b709-a829-4186-be78-17f062b03b32)
+    (effects (font (size 1 1) (thickness 0.15)))
   )
 
   (zone (net 0) (net_name "") (layer "F.Cu") (tstamp ba125928-2783-42e8-9ef0-22724599cf0c) (hatch edge 0.508)
