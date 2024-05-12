@@ -14,4 +14,4 @@ on:
 
 jobs:
   test:
-    uses: pettym/kicad-build-system/.github/workflows/kicad.yaml
+    uses: pettym/kicad-build-system/.github/workflows/kicad.yaml@main
